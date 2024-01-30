@@ -7,9 +7,13 @@ Therefore, it has become essential to anonymize the datasets in ways that preser
 Our methodology entails the integration of StyleGAN2 and Pix2PixHD, which guarantees the production of authentic content and the effective safeguarding of privacy. The proficiency of StyleGAN2 in generating synthetic data while preserving statistical traits by anonymizing serves as a valuable complement to Pix2PixHD 's capability to proactively translate AI-generated images into high-resolution, realistic representations. The generated output includes both an anonymized image and a numerical score indicating the extent of similarity between the anonymized image and the source image.  
 
 To quantify this similarity, we employed the cosine similarity measure, a mathematical method that assesses the resemblance between two vectors based on the cosine of the angle between them [3]. This measure serves as a reliable indicator of the degree of likeness between the anonymized and source images. A higher cosine similarity score signifies a closer match, while a lower score indicates greater dissimilarity. This approach not only provides an anonymized image but also furnishes a quantitative measure, allowing for a nuanced evaluation of the effectiveness of the anonymization process in preserving key features from the source image. It also emphasizes the ethical obligations of transparency and responsible data handling, thereby paving the way for a future where technological advancements and privacy safeguards can coexist harmoniously. 
+
+# GitHub Link
+https://github.com/mcs192023/Final_Modal.git
+
 # End User Guide
 Our generative AI model can be accessed in Google Colab. It is built on Jupyter Notebook platform and provides free access to GPU resources. Without any hassle of setting up the environment, run our model using the following link: 
 
 https://colab.research.google.com/drive/15RFBtXzo-lvKwMCkgh_0ZgeCASOPOgLE?usp=sharing 
 
-To achieve the desired output, users need to follow a specific sequence of four steps. In total, four cells need to run to obtain the output. The users will not be required to download or install any files or system library throughout the entire process. To run each step the users only need to click on the run button on each corresponding cell. For example, to run step 1, the users will only need to press Shift + Enter on their keyboard or click the play button (▶) shown in figure 1. 
+# Refer to the final report pdf for more information 
