@@ -1,1 +1,1 @@
-# Nikhita-Projects
+# Generative AI for Humanity
